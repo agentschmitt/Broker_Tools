@@ -1,0 +1,21 @@
+## Interface: 100000
+## Title: Broker - |cffffffffTools|r
+## Notes: Provides access to all Tool spells/items/mounts on mouseover.
+## Author: agentschmitt
+## X-Website: https://github.com/agentschmitt/Broker_Tools
+## Version: 1.21.0
+## OptionalDeps: LibDBIcon-1.0
+## SavedVariables: ToolsDB
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibQTip-1.0\LibQTip-1.0.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibSecureFrame-1.0\LibSecureFrame-1.0.lua
+
+locales.lua
+items.lua
+spells.lua
+functions.lua
+main.lua
