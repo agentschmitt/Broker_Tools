@@ -1,9 +1,9 @@
 local addonName, addonTable = ...
 
 local C_ToyBox = C_ToyBox
-local GetContainerNumSlots = GetContainerNumSlots
-local GetContainerItemLink = GetContainerItemLink
-local GetContainerItemInfo = GetContainerItemInfo
+local GetContainerNumSlots = C_Container.GetContainerNumSlots
+local GetContainerItemLink = C_Container.GetContainerItemLink
+local GetContainerItemInfo = C_Container.GetContainerItemInfo
 local GetItemInfo = GetItemInfo
 local GetInventoryItemLink = GetInventoryItemLink
 local GetItemCooldown = GetItemCooldown
